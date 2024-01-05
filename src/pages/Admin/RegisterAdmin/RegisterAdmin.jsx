@@ -118,7 +118,7 @@ const RegisterAdmin = () => {
           </div>
         </div>
       </div>
-      <AlertModal />
+      {/* <AlertModal /> */}
     </>
   );
 };

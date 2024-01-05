@@ -18,7 +18,7 @@ Welcome to our Airbnb clone! Follow these simple steps to explore and book amazi
 
 ### 1. Visit Our Website
 
-Navigate to our website at [HERE](https://bcs08g5-room-rental-service.vercel.app).
+Navigate to our website at [HERE]
 
 ### 2. Explore Listings
 

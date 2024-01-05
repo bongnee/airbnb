@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import Footer from "../components/Footer";
-import FooterFixed from "../components/FooterFixed";
 import Header from "../components/Header";
 import { httpsNoLoading } from "../api/config";
 import { Card } from "antd";
@@ -9,7 +8,6 @@ import bgAnimate from "../assets/animation_lok4gyyr.json";
 import Lottie from "lottie-react";
 import convertToSlug from "../utils/convertToSlug";
 import { Link } from "react-router-dom";
-import AdvertisementModal from "../components/AdvertisementModal";
 
 const anywherePlaces = [
   {
@@ -85,7 +83,6 @@ export default function HomePage() {
   const firstSectionRef = useRef(null);
   return (
     <>
-      <AdvertisementModal />
       <div className='bg-black'>
         <Header div2Ref={div2Ref} />
         <div ref={div2Ref} className='bg-black w-[95%] mx-auto h-[calc(100vh-64px)] lg:h-[calc(100vh-48px-64px)] flex justify-center items-center'>
@@ -146,7 +143,6 @@ export default function HomePage() {
           </div>
         </div>
         <Footer />
-        <FooterFixed />
       </div>
     </>
   );

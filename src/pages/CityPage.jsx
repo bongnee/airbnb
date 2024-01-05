@@ -96,7 +96,6 @@ export default function CityPage() {
           {!mapMounted && <Skeleton height={550} className='rounded-lg' />}
         </div>
       </div>
-      <FooterFixed />
       <Footer />
     </>
   );
