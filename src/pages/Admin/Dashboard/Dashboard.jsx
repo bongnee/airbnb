@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import CTA from "./CTA";
-import LoadingPage from "../../../components/admin/LoadingPage/LoadingPage";
 import UserList from "../../../components/admin/UserTable/UserList";
 import HeadingAdmin from "../../../components/admin/HeadingAdmin/HeadingAdmin";
 import CardAdmin from "../../../components/admin/CardAdmin/CardAdmin";
@@ -39,7 +38,6 @@ const Dashboard = () => {
           <ChartAdmin />
         </div>
       </main>
-      <LoadingPage title={"Dashboard"} />
     </>
   );
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import CTA from "../Dashboard/CTA";
-import LoadingPage from "../../../components/admin/LoadingPage/LoadingPage";
 import UserList from "../../../components/admin/UserTable/UserList";
 import HeadingAdmin from "../../../components/admin/HeadingAdmin/HeadingAdmin";
 
@@ -16,7 +15,7 @@ const UserAdminPage = () => {
           <UserList />
         </div>
       </main>
-      <LoadingPage title={"Người dùng"} />
+      
     </>
   );
 };

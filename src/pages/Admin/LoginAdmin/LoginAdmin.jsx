@@ -4,7 +4,7 @@ import { userServ } from "../../../api/api";
 import { setLoginAdmin } from "../../../redux/userSlice";
 import { userAdminLocalStorage } from "../../../api/localService";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 const LoginAdmin = () => {
   const [form] = Form.useForm();
@@ -22,7 +22,8 @@ const LoginAdmin = () => {
   const onFinish = values => {
     userServ
       .login(values)
-      .then(res => {
+      .then((res) => {
+
         const data = {
           ...res.data.content.user,
           avatar: res.data.content.user.avatar
@@ -87,7 +88,9 @@ const LoginAdmin = () => {
                 </Form.Item>
                 <div className='grid lg:flex justify-center items-center gap-3'>
                   <button className='cursor-pointer text-white w-full bg-primary hover:bg-primary-dark duration-300 px-6 py-2 rounded-lg'>
+                    
                     Đăng nhập
+                    
                   </button>
                 </div>
               </Form>

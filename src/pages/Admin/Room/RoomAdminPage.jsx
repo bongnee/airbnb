@@ -1,6 +1,5 @@
 import React from "react";
 import CTA from "../Dashboard/CTA";
-import LoadingPage from "../../../components/admin/LoadingPage/LoadingPage";
 import HeadingAdmin from "../../../components/admin/HeadingAdmin/HeadingAdmin";
 import RoomList from "../../../components/admin/RoomTable/RoomList";
 
@@ -16,7 +15,7 @@ const RoomAdminPage = () => {
           <RoomList />
         </div>
       </main>
-      <LoadingPage title={"Hệ thống phòng"} />
+      
     </>
   );
 };

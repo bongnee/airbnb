@@ -1,6 +1,5 @@
 import React from "react";
 import CTA from "../Dashboard/CTA";
-import LoadingPage from "../../../components/admin/LoadingPage/LoadingPage";
 import HeadingAdmin from "../../../components/admin/HeadingAdmin/HeadingAdmin";
 import LocationList from "../../../components/admin/LocationTable/LocationList";
 
@@ -16,7 +15,7 @@ const LocationAdminPage = () => {
           <LocationList />
         </div>
       </main>
-      <LoadingPage title={"Vị trí"} />
+   
     </>
   );
 };

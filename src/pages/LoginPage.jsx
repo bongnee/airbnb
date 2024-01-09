@@ -30,7 +30,7 @@ export default function LoginPage() {
       });
   };
   return (
-    <div className="flex flex-col min-h-screen bg-[url('https://demo4.cybersoft.edu.vn/static/media/logo_login.a444f2681cc7b623ead2.jpg')] bg-center bg-cover bg-no-repeat bg-fixed relative">
+    <div className="flex flex-col min-h-screen bg-black bg-center bg-cover bg-no-repeat bg-fixed relative">
       <div className='flex flex-1 justify-center items-center'>
         <div className='p-6 m-2 bg-white rounded-lg w-2/3 md:w-1/3 space-y-3'>
           <div className='grid grid-cols-1 lg:flex justify-between items-center gap-3'>
