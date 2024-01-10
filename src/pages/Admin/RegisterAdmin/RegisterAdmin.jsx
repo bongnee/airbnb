@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AlertModal from "./AlertModal";
-
+import { Link } from "react-router-dom";
 const RegisterAdmin = () => {
   useEffect(() => {
     document.title = "Airbnb - Admin - Đăng ký";
@@ -11,18 +11,12 @@ const RegisterAdmin = () => {
         <div className="flex-1 h-full max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-xl dark:bg-gray-800">
           <div className="flex flex-col overflow-y-auto md:flex-row">
             <div className="h-32 md:h-auto md:w-1/2">
-              <img
-                aria-hidden="true"
-                className="object-cover w-full h-full dark:hidden"
-                src="/images/create-account-office.jpeg"
-                alt="Office"
-              />
-              <img
-                aria-hidden="true"
-                className="hidden object-cover w-full h-full dark:block"
-                src="/images/create-account-office-dark.jpeg"
-                alt="Office"
-              />
+            <Link to='/'>
+               <img alt="logo" src="https://cdn.freebiesupply.com/images/large/2x/airbnb-logo.png" aria-hidden='true'
+            className="pt-20" ></img>
+            <p className="text-sm font-medium text-primary dark:text-primary pl-5 text-center">"Airbnb isn't just about finding a place to stay. It's about finding a place to belong".</p>
+            
+            </Link>
             </div>
             <div className="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
               <div className="w-full">
