@@ -8,5 +8,5 @@ export default defineConfig({
     exclude: ["js-big-decimal"],
   },
 
-  base: '/airbnb'
+  base: '/airbnb/'
 });
